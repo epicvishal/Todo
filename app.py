@@ -15,7 +15,6 @@ class Todo(db.Model):
 
     def __repr__(self):
         return f"{self.sno} - {self.title}"
-pip
 # with app.app_context():
 #     db.create_all()  # Create the database tables
 
